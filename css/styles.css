@@ -133,6 +133,15 @@ a{
     margin: auto;
     border-radius: 50%;
 }
+
+.btn-div:hover{
+  background-color: #257c00;
+    width: 20%;
+
+    padding: 0.625rem;
+    margin: auto;
+    border-radius: 50%;
+}
 .btn{
 
   color: #F5EEDC;

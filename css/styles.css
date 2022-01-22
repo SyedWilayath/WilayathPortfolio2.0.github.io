@@ -1,0 +1,163 @@
+html { font-size:100%; }
+
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 0;
+  font-size: 5.625rem;
+  padding: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #DD4A48;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #DD4A48;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #DD4A48;
+}
+
+.profilePic{
+  padding-top : 50px;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.skill_1{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  pointer-events: none;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill_2{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  pointer-events: none;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-container{
+  background-color: #97BFB4;
+  position: relative;
+  padding-top: 190px;
+}
+
+
+.middle-container{
+  background-color: #F5EEDC;
+}
+
+.bottom-container{
+  background-color: #4F091D;
+}
+
+a{
+  color: #F5EEDC;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+
+.copyright{
+  color: #F5EEDC;
+}
+
+.btn-div{
+  background-color: #4F091D;
+    width: 20%;
+
+    padding: 10px;
+    margin: auto;
+    border-radius: 50%;
+}
+.btn{
+
+  color: #F5EEDC;
+  display: inline-block;
+
+
+
+}
+
+.contact-me{
+  padding: 30px;
+ align-content: center;
+}
